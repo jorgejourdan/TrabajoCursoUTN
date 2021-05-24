@@ -5,15 +5,70 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
- #menu a, button{
+ #menu a {
      font-size: 18px;
      font-weight: 600;
     color:blue;
  }
 
- #menu a{
-     color:#3f3f3f;
+ .texto .ubicacion{
+     text-align: center;
+     justify-content: center;
+ }
+
+ .empresa {
+    color:rgb(255, 255, 255);
+    font-size: 90;
+ }
+
+ #intro {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 25px;
+ }
+
+ ##ubicacion{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 25px;
+ }
+
+ #equipo {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 35px;
+    margin-bottom: 25pxS;
+    text-align: center;
+ }
+
+ .texto {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 25px;
+ }
+
+ .servicios {
+    justify-content: center;
+    padding-top: 45px;
+    margin-top: auto;
+ }
+ .containt {
+    justify-content: center;
+    padding-top: 45px;
+    margin-top: auto;
+ }
+
+.text-dark {
+    padding:10px;
+    margin: 0px;
+    font-size: 35;
+    top:10px;
+    text-align: center;
      
+ }
+ .navbar {
+    padding: 10px;
+    margin: 10px;
  }
 
 .carousel-inner {

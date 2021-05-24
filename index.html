@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+
     <link rel="stylesheet" href="./css/estilos.css">
 
     <title>Software Jorge Jourdan</title>
@@ -13,11 +13,11 @@
   <body>
 
     <header>
-    <div class="container-fluid bg-primary d-flex justify-content-end">
-        <p class="text-dark mb-0 fs-6" >Llamanos 3447-470858</p>
+    <div class="container-fluid bg-primary telefono">
+        <p class="text-dark">Llamanos 3447-470858</p>
     </div>
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand navbar-light" href="#">
             <span class="text-primary">Software Jorge Jourdan</span></a>
@@ -43,60 +43,53 @@
 
     </header>
    
-    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="3000">
-            <img src="./img/slide1.jpg" class="d-block w-100" alt="">
+          <div class="carousel-item active">
+            <img src="./img/slide1.jpg" class="d-block w-100" alt="...">
           </div>
-          
- 
-          <div class="carousel-item" data-bs-interval="3000">
+          <div class="carousel-item">
             <img src="./img/slide2.jpg" class="d-block w-100" alt="...">
           </div>
- 
-
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="./img/slide3.jpg" class="d-block w-100" alt="...">
-          </div>
- 
- 
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel"  data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
+          <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel"  data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Siguiente</span>
+          <span class="visually-hidden">Next</span>
         </button>
-      </div>    
+      </div>
 
-    <section class="d-flex flex-column justify-content-center text-center w-50  m-auto" id="intro">
-    <div class="p-3 fs-2">Somos la empresa lider en desarrollo de <span class="text-primary">Software<span/></div>
-     <p class="p-3 fs-4">
-         <span class="text-primary">J.J</span> es la agencia donde te ayudamos establecer tu presencia online. SEO, paginas WEB, tiendas virtuales, redes sociales        
-     </p>   
+    <section>
+      <div class="container-fluid">
+          <div class="container" id="intro">
+              <div class="text-primary"> Somos la empresa lider en desarrollo de <span class="text-primary">Software</div>
+              <div class="text-primary">J.J es la agencia donde te ayudamos establecer tu presencia online. SEO, paginas WEB, tiendas virtuales, redes sociales        
+           </div>   
+           </div>
+      </div>
     </section>
 
 <section>
-<div class="contaniner-fluid">
-    <div class="row w-75 mx-auto" id="servicios-fila-1">      
-        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+<div class="contaniner-fluid servicios">
+    <div class="row" id="servicio">      
+        <div class="col-lg-6 col-md-12 col-sm-12 justify-content-start">
             <img src="./img/desarrollo.png" alt="desarrollo"   width="180" height="160">
 
             <div>
-                <h3 class="fs-5 mt-4 px-4 pb-1">Desarrollo</h3>
-                <p class="px-4">Desarrollo de aplicaciones WEB, moviles y ecommerce</p>
+                <h3 class="text-primary texto">Desarrollo</h3>
+                <p class="text-dark">Desarrollo de aplicaciones WEB, moviles y ecommerce</p>
             </div>
-
         </div>
 
-        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+        <div class="col-lg-6 col-md-12 col-sm-12 justify-content-center">
             <img src="./img/concepto.png" alt="concepto" width="180" height="160">
 
             <div>
-                <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Branding</h3>
-                <p class="px-4">Diseño, Conceptualización e Implementación de productos digitales</p>
+                <h3 class="text-primary texto">Branding</h3>
+                <p class="text-dark">Diseño, Conceptualización e Implementación de productos digitales</p>
             </div>
         </div>   
     </div>
@@ -105,9 +98,10 @@
 </section>
 
 <section>
-    <div class="container-fluid w-75 m-auto text-center" id="equipo">
-        <h1 class="mb-5 fs-2">Equipo pequeño con <span class="text-primary">resultados Grandes</span>.</h1>
-        <p class="fs-4 ">Buscamos las personas adecuadas para que trabajen con nosotros. Si te sientes listo para este reto, te esperamos para que te unas a nosotros.</p>
+    <div class="container-fluid">
+    <div class="container"  id="equipo">
+        <h1 class="texto">Equipo pequeño con <span class="text-primary">resultados Grandes</span>.</h1>
+        <p class="texto">Buscamos las personas adecuadas para que trabajen con nosotros. Si te sientes listo para este reto, te esperamos para que te unas a nosotros.</p>
     </div>
 
     <div class="mt-5 text-center">
@@ -115,18 +109,19 @@
     </div>
   
   
-    <div class="container-fluid mt-5 w-75 justify-content-center text-center"> 
+    <div class="container-fluid"> 
+      <div class="container ubicacion">
         <div>
-            <div class="wrapper-local">
+            <div class="texto">
                 <h2>Ubicado en San Jose, Entre Rios</h2>
-                <h2 class="text-primary mb-4" id="typewriter"></h2>
             </div>
         </div>
+      </div>>
      </div>
 </section>
 
-<div class="container-fluid mt-5 w-100 border-top m-auto text-center" id="seccion-contacto">
-  <div class="container p-3  border-top border-primary " style="max-width:500px" id="contenedor-formulario">
+<div class="container-fluid" id="seccion-contacto">
+  <div class="container border-top border-primary" style="max-width:500px" id="contenedor-formulario">
       <div class="text-center mb-4" id="titulo-formulario">
         <h2>Contactanos</h2>
         <p class="fs-5">Estamos aqui para hacer realidad de tus proyectos</p>
@@ -161,8 +156,8 @@
   </div>
 </section>
 
-<footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
-  <p class="fs-5 px-3  pt-3">Jorge Jourdan &copy; Todos Los Derechos Reservados 2021</p>
+<footer class="footer">
+  <p class="fs-5">Jorge Jourdan &copy; Todos Los Derechos Reservados 2021</p>
   <div id="iconos" >
       <a href="https://www.facebook.com/ja.jourdan" target="_blank"><i class="bi bi-facebook"></i></a>
       <a href="https://twitter.com/JorgeJourdan" target="_blank"><i class="bi bi-twitter"></i></a>
@@ -170,7 +165,5 @@
   </div>
 </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> 
-    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <script src="main.js"></script>
   </body>
 </html>
