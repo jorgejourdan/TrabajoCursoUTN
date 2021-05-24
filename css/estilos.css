@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ #menu a, button{
+     font-size: 18px;
+     font-weight: 600;
+    color:blue;
+ }
+
+ #menu a{
+     color:#3f3f3f;
+     
+ }
+
+.carousel-inner {
+     max-height: 36rem;
+     }
+
+#img-equipo{
+    max-height:30rem;
+    width:50%;
+}
+
+#bg-contactos{
+    position:relative;
+    top: 20px;
+} 
+ #seccion-contacto{
+    background-color:#1b2a4e;
+
+}
+.contenedor-formulario
+{
+    background-color:#1b2a4e;
+}
+
+#titulo-formulario {
+    color: #ffffff;
+}
+
+footer {
+    background: #0a4de8;
+    min-height: 100px;;
+}
+footer p{
+    color:#f3f3f3;
+    text-align:center;
+}
+#iconos  i {
+    font-size: 26px;
+    padding: 0 8px;
+    color:#f3f3f3;
+}
+
